@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Big Shoulders Display";
+  src: url("/fonts/big-shoulders-display/BigShouldersDisplay-Black.ttf")
+    format("truetype");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  --breakpoint-xl2: 1080px;
+  --breakpoint-xl3: 946px;
+  --color-primary: #e84a4a;
+  --color-secondary: #99999a;
+  --color-tertiary: #7dff68;
+  --color-quatrary: #212121;
+  --color-pentary: #b2b7ba;
+  --color-septary: #160809;
+  --color-heptary: #010104;
+  --color-octary: #260c0f;
+  --font-big-shoulders: "Big Shoulders", sans-serif;
+  --font-big-shoulders-display: "Big Shoulders Display", sans-serif;
+  --font-iceland: "Iceland", cursive;
+  --font-iceberg: "Iceberg", cursive;
+}
+
+@layer utilities {
+  .font-big-shoulders {
+    font-family: var(--font-big-shoulders);
+  }
+
+  .font-big-shoulders-display {
+    font-family: var(--font-big-shoulders-display);
+  }
+
+  .font-iceland {
+    font-family: var(--font-iceland);
+  }
+}
+
+*,
+html,
+body {
+  @apply overflow-x-clip;
+}
+
+body {
+  @apply overflow-x-clip bg-black bg-[url('/images/Homescreen_BG.png')] bg-cover bg-top-right bg-no-repeat;
+}
+
+* {
+  transform-style: preserve-3d;
+}
+
+/* Cyber Scrollbar */
+.cyber-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #e84a4a transparent;
+}
+
+.cyber-scroll::-webkit-scrollbar {
+  width: 4px;
+}
+
+.cyber-scroll::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.cyber-scroll::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, transparent, #e84a4a, transparent);
+  border-radius: 999px;
+}
+
+.cyber-scroll::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, transparent, #ff6a6a, transparent);
+}
+
+.clip-notch {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 0 30%, 30% 0);
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE & Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
