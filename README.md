@@ -1,16 +1,37 @@
-# React + Vite
+# Pranav Kale | Digital Strategist & Full-Stack Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the open-source repository for my personal portfolio. I am a Computer Engineering student at Vidyalankar Institute of Technology, specializing in the intersection of artificial intelligence, business analytics, and digital strategy.
 
-Currently, two official plugins are available:
+**🔴 Live Site:** [[https://portfolio-2esab4fbq-pranav260804s-projects.vercel.app/]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📸 Sneak Peek
+*(Add your screenshots here)*
+![Home Screen](./screenshots/home.png)
+![Projects Section](./screenshots/projects.png)
 
-## React Compiler
+## 🚀 About This Project
+This portfolio was built to showcase my technical engineering execution and overarching business goals. It features a cyberpunk-inspired, interactive 3D UI that highlights my elite mindset, daily grind, and professional milestones.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Core Features
+* **Agent-Themed UI:** Highly interactive, neon-styled interface with modal-based navigation.
+* **Integrated Contact System:** Fully functional client-side contact form routed directly to my inbox without needing a backend server.
+* **Responsive Design:** Fluid layouts that scale seamlessly from desktop to mobile.
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
+* **Frontend:** React.js (v19), Vite
+* **Styling & Animation:** Tailwind CSS, Framer Motion
+* **Routing:** React Router DOM
+* **Email Service:** EmailJS
+* **Deployment:** Vercel
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📂 Featured Projects Highlighted
+1. **EV-RIT Platform:** A full-stack electric vehicle marketplace (Next.js, Streamlit, Supabase).
+2. **AI Resume Parser:** An NLP pipeline to automate recruitment data processing.
+3. **AI Toll Booth Traffic Monitor:** A computer vision prototype for traffic density analysis (OpenCV, YOLO).
+
+## 💻 Local Installation
+If you want to run this project locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/Pranav260804/pranav-portfolio.git](https://github.com/Pranav260804/pranav-portfolio.git)
