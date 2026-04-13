@@ -5,7 +5,7 @@ Welcome to the open-source repository for my personal portfolio. I am a Computer
 **🔴 Live Site:** [https://portfolio-2esab4fbq-pranav260804s-projects.vercel.app/]
 
 ## 📸 Sneak Peek
-*(Add your screenshots here)*
+
 ![Home Screen](./screenshots/home.png)
 ![Projects Section](./screenshots/projects.png)
 
