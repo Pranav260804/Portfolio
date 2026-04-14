@@ -34,7 +34,7 @@ const LinkMenue = ({
           <span className="absolute bottom-0 right-0 w-2 h-0.5 bg-primary" />
           <span className="absolute bottom-0 right-0 w-0.5 h-2 bg-primary" />
 
-          <span className="relative z-10">MUSAB KHAN</span>
+          <span className="relative z-10">PRANAV KALE</span>
         </button>
       </div>
 
@@ -43,7 +43,7 @@ const LinkMenue = ({
           OCCUPATION
         </span>
         <span className="text-[18px] font-big-shoulders text-primary tracking-[0.075em]">
-          SOFTWARE DEVELOPER
+          BUSINESS ANALYTICS & DIGITAL STRATEGIST
         </span>
       </div>
 
@@ -52,7 +52,7 @@ const LinkMenue = ({
           CORPORATION
         </span>
         <span className="text-[18px] font-big-shoulders text-primary tracking-[0.075em]">
-          ZILLIOBIT
+          VIDYALANKAR INSTITUTE OF TECHNOLOGY
         </span>
       </div>
 

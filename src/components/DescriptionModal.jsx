@@ -51,7 +51,7 @@ const DescriptionModal = ({ onClose, onNext }) => {
               <tr>
                 <td className="text-white align-top whitespace-nowrap">Role</td>
                 <td className="text-pentary align-top">
-                  Software Developer and final-year Computer Engineering student
+                  Business Analytics & Digital Strategist and final-year Computer Engineering student
                 </td>
               </tr>
 
@@ -81,7 +81,7 @@ const DescriptionModal = ({ onClose, onNext }) => {
                 </td>
                 <td className="text-pentary align-top space-y-2">
                   <div>
-                    Software Developer and final-year Computer Engineering
+                    Business Analytics & Digital Strategist and final-year Computer Engineering
                     student with experience building scalable web applications
                     and platforms.
                   </div>
