@@ -2,7 +2,7 @@
 
 Welcome to the open-source repository for my personal portfolio. I am a Computer Engineering student at Vidyalankar Institute of Technology, specializing in the intersection of artificial intelligence, business analytics, and digital strategy.
 
-**🔴 Live Site:** [https://portfolio-2esab4fbq-pranav260804s-projects.vercel.app/]
+**🔴 Live Site:** [https://portfolio-peach-two-j87fvnar5n.vercel.app/]
 
 ## 📸 Sneak Peek
 
